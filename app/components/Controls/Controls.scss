@@ -1,0 +1,33 @@
+.btnpink{
+  background-color:#861657;
+  background-image:linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+  cursor: pointer;
+  width:160px;
+  height: 60px;
+  color:#fff;
+  border:0;
+  position:absolute;
+  border-radius: 4px;
+}
+
+.btn{
+  border: 3px solid #000 !important;
+  background-color: #fff !important;
+  cursor: pointer;
+  width:160px;
+  height: 60px;
+  color:#000;
+  border:0;
+  position:absolute;
+  border-radius: 4px;
+}
+
+.previous{
+  top:90vh;
+  left:3vw;
+}
+
+.next{
+  top: 90vh;
+  right: 3vw;
+}

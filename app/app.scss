@@ -1,0 +1,62 @@
+
+$flatTurquoise:#1abc9c;
+$flatGreenSea:#16a085;
+$flatEmerald:#2ecc71;
+$flatNephritis:#27ae60;
+$flatPeterRiver:#3498db;
+$flatBelizeHole:#2980b9;
+$flatAmethyst:#9b59b6;
+$flatWisteria:#8e44ad;
+$flatWetAsphalt:#34495e;
+$flatMidnightBlue:#2c3e50;
+$flatSunFlower:#f1c40f;
+$flatOrange:#f39c12;
+$flatCarrot:#e67e22;
+$flatPumpkin:#d35400;
+$flatAlizarin:#e74c3c;
+$flatPomegranate:#c0392b;
+$flatClouds:#ecf0f1;
+$flatSilver:#bdc3c7;
+$flatConcrete:#95a5a6;
+$flatAsbestos:#7f8c8d;
+
+$flatWhite:#f4f8f9;
+
+@font-face {
+    font-family: "FuturaLight";
+    src: url('resources/fonts/Futura_light.ttf');
+}
+
+body {
+    background: $flatWhite;
+    margin: 0px !important;
+    font-family: "FuturaLight",FuturaLight,FuturaLight,sans-serif;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 50px;
+    margin: 20px;
+    letter-spacing: -7px;
+}
+
+button, input[type=button]{
+    font-family: "FuturaLight",FuturaLight,FuturaLight,sans-serif;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*
+Cet import est fait grace au "css-loader" de webpack
+Le css-loader va permettre de transformer les "@import" et les "url()"
+comme si c'étaient des require classique en JS
+*/
+@import './components/Home/Home.scss';
+@import './components/TopBar/TopBar.scss';
+@import './components/Galleries/Galleries.scss';
+@import './components/Gallerie/Gallerie.scss';
+@import './components/Album/Album.scss';
+@import './components/Carousel/Carousel.scss';
+@import './components/Controls/Controls.scss';

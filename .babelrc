@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["es2015", {"modules": false}],
+    // webpack comprends déjà les "import", donc pas besoin des modules de babel
+
+    "react"
+    // Transpile les composants react en JS
+  ],
+  "plugins": [
+    "react-hot-loader/babel"
+    // Active le HMR (Hot Module Replacement) dans React
+  ]
+}

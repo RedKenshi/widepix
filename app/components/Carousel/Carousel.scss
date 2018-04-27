@@ -1,0 +1,17 @@
+.carouselContainer{
+  height: 90vh;
+  width: 90vw;
+  padding: auto;
+}
+
+.fullFormatImage{
+  max-height: 70vh;
+  max-width: 60vw;
+  margin: auto;
+  display:block;
+  image-rendering: crisp-edges;
+}
+
+.carouselContainer{
+  text-align: center;
+}
